@@ -13,4 +13,6 @@ int main(){
     cin>>a>>b;
     cout<<"Value of a and b are"<<a<<endl<<b;
     vector<int> arr;
+    arr.push_back(123);
+    cout<<arr[0];
 }

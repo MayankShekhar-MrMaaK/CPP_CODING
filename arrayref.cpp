@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+
 using namespace std;
 void f(int x[5]){
     for(int i=0;i<5;i++)
