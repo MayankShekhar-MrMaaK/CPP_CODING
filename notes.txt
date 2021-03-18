@@ -1,0 +1,10 @@
+what is prime prime 
+
+if n is prime number
+then calculate all 
+prime number present
+between 1<->n
+
+we have to get all prime
+prime number between
+L to R

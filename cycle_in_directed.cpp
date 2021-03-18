@@ -9,11 +9,11 @@ struct Edge{
 class Graph{
 public:
     vector<vector<int>> adjl;
-    
     Graph(vector<Edge> const &edges, int n){
         adjl.resize(n);
         for(auto &edge:edges){
             adjl[edge.src].push_back(edge.dest);
+            
         }
     }
 };
@@ -33,7 +33,7 @@ bool dfs(Graph const &graph,int vertex,vector<bool> &discovered, int parent){
 
 int main(){
     vector<Edge> edges={
-        {1,2],{2,3},{3,4},{3,1},{5,6},{6,4},
+        {1,2},{2,3},{3,4},{3,1},{5,6},{6,4},
     };
     int n=7;
     Graph graph(edges,n);

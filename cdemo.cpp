@@ -1,18 +1,9 @@
 #include<iostream>
-#include<vector>
 using namespace std;
-
 int main(){
-
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt","r",stdin);
-        freopen("output.txt","w",stdout);
-    #endif
-
-    int a, b;
-    cin>>a>>b;
-    cout<<"Value of a and b are"<<a<<endl<<b;
-    vector<int> arr;
-    arr.push_back(123);
-    cout<<arr[0];
+	int i=9;
+	cout<<i<<endl;
+	for(){
+          
+	
 }
